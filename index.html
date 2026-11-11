@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Hand Gesture Recognition</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+</head>
+
+<body>
+
+    <h1>AI Hand Gesture Recognition</h1>
+    <p>Show your hand gesture in front of the camera</p>
+
+    <button onclick="startCamera()">Start Camera</button>
+
+    <div id="webcam-container"></div>
+
+    <h2>Prediction</h2>
+    <div id="label-container"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
